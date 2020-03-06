@@ -23,7 +23,8 @@ jobs:
     - name: install xvfb
       run: sudo apt-get install xvfb
     - name: installiere npm
-      run: npm i
-           xvfb-run --auto-servernum npm test
+      run: |
+          npm i
+          xvfb-run --auto-servernum npm test
     - name: Build with Maven
       run: mvn -Pnu -Pgui clean -X verify
