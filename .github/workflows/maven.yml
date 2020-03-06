@@ -20,11 +20,10 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: installiere npm
-      run: npm install
     - name: install xvfb
       run: sudo apt-get install xvfb
-    - name: run xvfb
-      run: xvfb-run --auto-servernum npm test
+    - name: installiere npm
+      run: npm i
+           xvfb-run --auto-servernum npm test
     - name: Build with Maven
       run: mvn -Pnu -Pgui clean -X verify
