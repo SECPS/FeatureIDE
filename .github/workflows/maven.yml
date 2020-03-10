@@ -34,8 +34,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        ls
-        git add plugins
+        git add .
         git commit -m "Add changes" -a
     - name: Push Builds
       uses: ad-m/github-push-action@master
