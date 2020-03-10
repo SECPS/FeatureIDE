@@ -77,6 +77,7 @@ public abstract class AbstractJakModelBuilder<AST_Program_Type> {
 	public abstract void reset();
 
 	public void addArbitraryFiles() {
+		final int test= 5;
 		final IFolder folder = featureProject.getSourceFolder();
 		for (final FSTFeature feature : model.getFeatures()) {
 			final IFolder featureFolder = folder.getFolder(feature.getName());
