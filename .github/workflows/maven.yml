@@ -29,16 +29,4 @@ jobs:
     - name: Build with Maven
       uses: GabrielBB/xvfb-action@v1.0
       with:
-       run: mvn -Pnu clean deploy
-    - name: Commit files
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add ./deploy/
-        git commit -m "Add changes" -a
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        directory: ./deploy/
-        branch: develop
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+       run: mvn -Pnu clean verify
