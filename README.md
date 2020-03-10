@@ -2,6 +2,8 @@
 
 An extensible framework for feature-oriented software development
 
+Current SECPS develop build: [![Java CI with Maven](https://github.com/SECPS/FeatureIDE/workflows/Java%20CI%20with%20Maven/badge.svg?branch=develop)](https://github.com/SECPS/FeatureIDE/actions?query=workflow%3A%22Java+CI+with+Maven%22)
+
 latest release:
 [![Build Status](https://travis-ci.org/FeatureIDE/FeatureIDE.svg?branch=master)](https://travis-ci.org/FeatureIDE/FeatureIDE)
 
