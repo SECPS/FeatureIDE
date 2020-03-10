@@ -29,7 +29,7 @@ jobs:
     - name: Build with Maven
       uses: GabrielBB/xvfb-action@v1.0
       with:
-       run: mvn -Pnu clean package
+       run: mvn -Pnu clean deploy
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
