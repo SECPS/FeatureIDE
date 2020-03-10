@@ -19,7 +19,7 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Caching dependencies
+    - name: Getting cached dependencies
       uses: actions/cache@v1
       with:
         path: ~/.m2/repository
@@ -29,5 +29,14 @@ jobs:
     - name: Build with Maven
       uses: GabrielBB/xvfb-action@v1.0
       with:
-       run: mvn -Pnu -V clean verify
-
+       run: mvn -Pnu clean package
+    - name: Commit Builds
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Add changes" -a
+    - name: Push Builds
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
