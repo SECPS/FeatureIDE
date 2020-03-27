@@ -30,12 +30,10 @@ jobs:
       uses: GabrielBB/xvfb-action@v1.0
       with:
        run: mvn -Pnu clean package  
-    - name: Commit changes
-      run: |
-        git status
-        git add . -f
-        git commit -m "Commit new build files"
-        git push 
-        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
 
 
