@@ -30,6 +30,7 @@ jobs:
       uses: GabrielBB/xvfb-action@v1.0
       with:
        run: mvn -Pnu clean package    
-    - name: action-push
-      uses: ludeeus/action-push@0.0.1
+    - name: Pull Request Assigner
+      uses: thomaseizinger/assign-pr-creator-action@v1.0.0
+
 
