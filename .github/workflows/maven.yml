@@ -29,7 +29,9 @@ jobs:
     - name: Build with Maven
       uses: GabrielBB/xvfb-action@v1.0
       with:
-       run: mvn -Pnu clean package  
+       run: mvn clean package  
+    - name: Add changes
+      run: git add . -f
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
