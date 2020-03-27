@@ -35,6 +35,8 @@ jobs:
           git config --global user.name 'Dario Romano'
           git config --global user.email 'd.salvo.romano@gmail.com'
           git commit -am "Automated report"
+          git add . 
+          git commit -f
           git push
 
 
