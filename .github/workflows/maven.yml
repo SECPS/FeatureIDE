@@ -30,13 +30,9 @@ jobs:
       uses: GabrielBB/xvfb-action@v1.0
       with:
        run: mvn -Pnu clean package  
-    - name: commit changes 
-      run: |
-          git config --global user.name 'Dario Romano'
-          git config --global user.email 'd.salvo.romano@gmail.com'
-          git add . -f
-          git merge --no-ff
-          git commit -f
-          git push
+    - name: jenkinsfile-runner-prepackaged
+      uses: jenkinsci/jenkinsfile-runner-github-actions/jenkinsfile-runner-prepackaged@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
