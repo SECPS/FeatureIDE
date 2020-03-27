@@ -36,7 +36,8 @@ jobs:
         git config --local user.name "GitHub Action"
         cd plugins
         git add . -f -v
-        git status
+        git status master
+        git status develop
         git commit -m "Add new target files" -a
     - name: Push Builds
       uses: ad-m/github-push-action@master
