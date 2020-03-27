@@ -5,7 +5,7 @@ script{
             
             sh """
                 set -x
-                curl \"https://api.github.com/repos/FeatureIDE/FeatureIDE/statuses/$GIT_COMMIT?access_token=$TOKEN\" \
+                curl \"https://api.github.com/repos/SECPS/FeatureIDE/statuses/$GIT_COMMIT?access_token=$TOKEN\" \
                     -H \"Content-Type: application/json\" \
                     -X POST \
                     -d \"{\\\"description\\\": \\\"$message\\\", \\\"state\\\": \\\"$state\\\", \\\"context\\\": \\\"$context\\\", \\\"target_url\\\": \\\"$BUILD_URL\\\"}\"
