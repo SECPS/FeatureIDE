@@ -34,9 +34,9 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git pull
         cd plugins
         git add . -f -v
+        git status
         git commit -m "Add new target files" -a
     - name: Push Builds
       uses: ad-m/github-push-action@master
