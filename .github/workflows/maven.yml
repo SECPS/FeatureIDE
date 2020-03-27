@@ -31,6 +31,7 @@ jobs:
       with:
        run: mvn -Pnu clean package  
     - name: commit changes 
+      run: |
           git config --global user.name 'Dario Romano'
           git config --global user.email 'd.salvo.romano@gmail.com'
           git commit -am "Automated report"
