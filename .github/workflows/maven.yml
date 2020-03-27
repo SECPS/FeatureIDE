@@ -30,9 +30,12 @@ jobs:
       uses: GabrielBB/xvfb-action@v1.0
       with:
        run: mvn -Pnu clean package  
-    - name: jenkinsfile-runner-prepackaged
-      uses: jenkinsci/jenkinsfile-runner-github-actions/jenkinsfile-runner-prepackaged@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Commit changes
+      run: |
+        git status
+        git add . -f
+        git commit -m "Commit new build files"
+        git push 
+        
 
 
