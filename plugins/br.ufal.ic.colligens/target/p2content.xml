@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='br.ufal.ic.colligens' version='1.1.4.202005141025'>
+    <update id='br.ufal.ic.colligens' range='[0.0.0,1.1.4.202005141025)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Colligens'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Federal University of Alagoas , Brazil'/>
+      <property name='maven-groupId' value='de.ovgu.featureide'/>
+      <property name='maven-artifactId' value='br.ufal.ic.colligens'/>
+      <property name='maven-version' value='1.1.4-SNAPSHOT'/>
+    </properties>
+    <provides size='37'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='br.ufal.ic.colligens' version='1.1.4.202005141025'/>
+      <provided namespace='osgi.bundle' name='br.ufal.ic.colligens' version='1.1.4.202005141025'/>
+      <provided namespace='java.package' name='br.ufal.ic.colligens.activator' version='0.0.0'/>
+      <provided namespace='java.package' name='br.ufal.ic.colligens.controllers' version='0.0.0'/>
+      <provided namespace='java.package' name='br.ufal.ic.colligens.controllers.core' version='0.0.0'/>
+      <provided namespace='java.package' name='br.ufal.ic.colligens.controllers.invalidconfigurations' version='0.0.0'/>
+      <provided namespace='java.package' name='br.ufal.ic.colligens.controllers.invalidproducts' version='0.0.0'/>
+      <provided namespace='java.package' name='br.ufal.ic.colligens.controllers.metrics' version='0.0.0'/>
+      <provided namespace='java.package' name='br.ufal.ic.colligens.controllers.refactoring' version='0.0.0'/>
+      <provided namespace='java.package' name='br.ufal.ic.colligens.controllers.semanticbugs' version='0.0.0'/>
+      <provided namespace='java.package' name='br.ufal.ic.colligens.handler' version='0.0.0'/>
+      <provided namespace='java.package' name='br.ufal.ic.colligens.models' version='0.0.0'/>
+      <provided namespace='java.package' name='br.ufal.ic.colligens.models.cppchecker' version='0.0.0'/>
+      <provided namespace='java.package' name='br.ufal.ic.colligens.preferences' version='0.0.0'/>
+      <provided namespace='java.package' name='br.ufal.ic.colligens.util' version='0.0.0'/>
+      <provided namespace='java.package' name='br.ufal.ic.colligens.util.metrics' version='0.0.0'/>
+      <provided namespace='java.package' name='br.ufal.ic.colligens.views' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.conditional' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.crewrite' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.error' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.featureexpr' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.featureexpr.bdd' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.featureexpr.sat' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.featureexprUtil' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.lexer.macrotable' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.lexer.options' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.multipatch' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.options' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.parser' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.parser.c' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.parser.java15' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.parser.java15.lexer' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.typesystem' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.typesystem.linker' version='0.0.0'/>
+      <provided namespace='java.package' name='de.fosd.typechef.xtclexer' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='18'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.filebuffers' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.ovgu.featureide.fm.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.ovgu.featureide.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.ovgu.featureide.fm.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.ovgu.featureide.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.console' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.cdt.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ltk.core.refactoring' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ltk.ui.refactoring' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.cdt.core.model' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.cdt.internal.core.model' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.cdt.ui.text.contentassist' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='br.ufal.ic.colligens' version='1.1.4.202005141025'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: br.ufal.ic.colligens;singleton:=true&#xA;Bundle-Version: 1.1.4.202005141025&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

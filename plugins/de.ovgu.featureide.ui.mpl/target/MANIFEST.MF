@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.ui.mpl
+Bundle-SymbolicName: de.ovgu.featureide.ui.mpl;singleton:=true
+Export-Package: de.ovgu.featureide.ui.mpl,de.ovgu.featureide.ui.mpl.ha
+ ndlers,de.ovgu.featureide.ui.mpl.handlers.interfaces,de.ovgu.featurei
+ de.ui.mpl.handlers.statistics,de.ovgu.featureide.ui.mpl.wizards,de.ov
+ gu.featureide.ui.mpl.wizards.page
+Bundle-Name: FeatureIDE UI Plug-In for Multi Product Lines
+Bundle-Version: 3.6.2.202005141025
+Require-Bundle: de.ovgu.featureide.core,de.ovgu.featureide.core.mpl,de
+ .ovgu.featureide.fm.core,de.ovgu.featureide.fm.ui,de.ovgu.featureide.
+ ui,org.eclipse.core.runtime,org.eclipse.core.resources,org.eclipse.ui
+ ,org.eclipse.draw2d
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: de.ovgu.featureide.ui.mpl.MPLUIPlugin
+Bundle-Vendor: University of Magdeburg
+

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.core.aspectj
+Bundle-SymbolicName: de.ovgu.featureide.core.aspectj;singleton:=true
+Export-Package: de.ovgu.featureide.aspectj
+Bundle-Name: FeatureIDE Plug-In for AspectJ
+Bundle-Version: 3.6.2.202005141025
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,de
+ .ovgu.featureide.core,de.ovgu.featureide.fm.core,org.eclipse.jdt.core
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.ovgu.featureide.aspectj.AspectJCorePlugin
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: University of Magdeburg
+

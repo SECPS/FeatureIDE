@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.core.featurecpp
+Bundle-SymbolicName: de.ovgu.featureide.core.featurecpp;singleton:=tru
+ e
+Export-Package: de.ovgu.featureide.featurecpp,de.ovgu.featureide.featu
+ recpp.model,de.ovgu.featureide.featurecpp.wrapper
+Bundle-Name: FeatureIDE Plug-In for FeatureC++
+Bundle-Version: 3.6.2.202005141025
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.resources,de.ovgu.featureide.fm.core,de.ovgu.featureide.core
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.ovgu.featureide.featurecpp.FeatureCppCorePlugin
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: University of Magdeburg
+

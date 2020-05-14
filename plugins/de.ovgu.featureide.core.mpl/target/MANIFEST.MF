@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.core.mpl
+Bundle-SymbolicName: de.ovgu.featureide.core.mpl;singleton:=true
+Require-Bundle: de.ovgu.featureide.core,de.ovgu.featureide.fm.core,org
+ .eclipse.core.resources,org.eclipse.core.runtime,org.eclipse.jdt.core
+ ,org.eclipse.ltk.core.refactoring
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: University of Magdeburg
+Import-Package: org.eclipse.jdt.core.refactoring,org.eclipse.jdt.core.
+ refactoring.descriptors,org.eclipse.jdt.internal.core
+Export-Package: de.ovgu.featureide.core.mpl,de.ovgu.featureide.core.mp
+ l.builder,de.ovgu.featureide.core.mpl.job,de.ovgu.featureide.core.mpl
+ .signature,de.ovgu.featureide.core.mpl.signature.filter,de.ovgu.featu
+ reide.core.mpl.util
+Bundle-Name: FeatureIDE Plug-In for Multi Product Lines
+Bundle-Version: 3.6.2.202005141025
+Bundle-ClassPath: lib/fuji.jar,.
+Bundle-Activator: de.ovgu.featureide.core.mpl.MPLPlugin
+

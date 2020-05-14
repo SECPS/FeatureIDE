@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.ui.android
+Bundle-SymbolicName: de.ovgu.featureide.ui.android;singleton:=true
+Export-Package: de.ovgu.featureide.ui.android,de.ovgu.featureide.ui.an
+ droid.handlers,de.ovgu.featureide.ui.android.wizards
+Bundle-Name: FeatureIDE UI Plug-In for Android
+Bundle-Version: 3.6.2.202005141025
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.resources,de.ovgu.featureide.core,de.ovgu.featureide.ui,de.ovgu.fe
+ atureide.fm.ui,de.ovgu.featureide.fm.core,de.ovgu.featureide.core.mun
+ ge.android,org.eclipse.ui.ide
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.ovgu.featureide.ui.android.AndroidUIPlugin
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+

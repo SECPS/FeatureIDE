@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.core.images
+Bundle-SymbolicName: de.ovgu.featureide.core.images;singleton:=true
+Export-Package: de.ovgu.featureide.core.images,de.ovgu.featureide.core
+ .images.activator
+Bundle-Name: FeatureIDE Plug-In for Image Composition
+Bundle-Version: 3.6.2.202005141025
+Require-Bundle: de.ovgu.featureide.core,de.ovgu.featureide.fm.core,org
+ .eclipse.core.runtime,org.eclipse.core.resources
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: de.ovgu.featureide.core.images.activator.ImagesCoreP
+ lugin
+Bundle-Vendor: Jabier Martinez
+

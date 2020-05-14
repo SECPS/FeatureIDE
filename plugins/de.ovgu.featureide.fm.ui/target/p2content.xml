@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.ovgu.featureide.fm.ui' version='3.6.2.202005141025'>
+    <update id='de.ovgu.featureide.fm.ui' range='[0.0.0,3.6.2.202005141025)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Feature Model UI Plug-In'/>
+      <property name='org.eclipse.equinox.p2.provider' value='University of Magdeburg'/>
+      <property name='maven-groupId' value='de.ovgu.featureide'/>
+      <property name='maven-artifactId' value='de.ovgu.featureide.fm.ui'/>
+      <property name='maven-version' value='3.6.2-SNAPSHOT'/>
+    </properties>
+    <provides size='51'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.ovgu.featureide.fm.ui' version='3.6.2.202005141025'/>
+      <provided namespace='osgi.bundle' name='de.ovgu.featureide.fm.ui' version='3.6.2.202005141025'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.configuration' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.elements' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.featuremodel' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.featuremodel.actions' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.featuremodel.actions.calculations' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.featuremodel.actions.colors' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.featuremodel.commands' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.featuremodel.commands.renaming' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.featuremodel.editparts' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.featuremodel.figures' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.featuremodel.figures.anchors' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.featuremodel.filters' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.featuremodel.layouts' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.featuremodel.operations' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.featuremodel.policies' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.keyhandler' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.editors.mousehandler' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.handlers' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.handlers.base' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.preferences' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.properties' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.properties.language' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.properties.page' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.utils' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.views' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.views.constraintview' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.views.constraintview.actions' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.views.constraintview.listener' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.views.constraintview.util' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.views.constraintview.view' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.views.featuremodeleditview' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.views.outline' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.views.outline.computations' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.views.outline.computations.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.views.outline.custom' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.views.outline.custom.action' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.views.outline.custom.filters' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.views.outline.custom.providers' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.views.outline.standard' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.ui.wizards' version='0.0.0'/>
+      <provided namespace='java.package' name='org.abego.treelayout' version='0.0.0'/>
+      <provided namespace='java.package' name='org.abego.treelayout.internal.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.abego.treelayout.internal.util.java.lang' version='0.0.0'/>
+      <provided namespace='java.package' name='org.abego.treelayout.internal.util.java.lang.string' version='0.0.0'/>
+      <provided namespace='java.package' name='org.abego.treelayout.internal.util.java.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.abego.treelayout.util' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='11'>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.views' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.gef' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.ovgu.featureide.fm.core' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.ovgu.featureide.fm.ui' version='3.6.2.202005141025'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.ovgu.featureide.fm.ui;singleton:=true&#xA;Bundle-Version: 3.6.2.202005141025&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

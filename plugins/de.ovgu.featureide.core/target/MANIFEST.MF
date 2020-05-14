@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.core
+Bundle-SymbolicName: de.ovgu.featureide.core;singleton:=true
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.debug.core,org.ec
+ lipse.ui,org.eclipse.jdt.core,de.ovgu.featureide.fm.core
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: University of Magdeburg
+Import-Package: org.eclipse.jdt.internal.core,org.eclipse.ui.wizards.n
+ ewresource
+Export-Package: com.sun.tools.classfile,com.sun.tools.javac.jvm,de.ovg
+ u.featureide.core,de.ovgu.featureide.core.builder,de.ovgu.featureide.
+ core.builder.preprocessor,de.ovgu.featureide.core.featuremodeling,de.
+ ovgu.featureide.core.fstmodel,de.ovgu.featureide.core.fstmodel.prepro
+ cessor,de.ovgu.featureide.core.job,de.ovgu.featureide.core.listeners,
+ de.ovgu.featureide.core.propertypage,de.ovgu.featureide.core.signatur
+ e,de.ovgu.featureide.core.signature.base,de.ovgu.featureide.core.sign
+ ature.comparator,de.ovgu.featureide.core.signature.documentation,de.o
+ vgu.featureide.core.signature.documentation.base,de.ovgu.featureide.c
+ ore.signature.filter,de.ovgu.featureide.core.signature.java,de.ovgu.f
+ eatureide.core.wizardextension
+Bundle-Name: FeatureIDE Core Plug-In
+Bundle-Version: 3.6.2.202005141025
+Bundle-Localization: 
+Bundle-ClassPath: lib/tools.jar,.
+Bundle-Activator: de.ovgu.featureide.core.CorePlugin
+

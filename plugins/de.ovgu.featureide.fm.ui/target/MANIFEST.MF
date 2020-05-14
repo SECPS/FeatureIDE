@@ -1,0 +1,53 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.fm.ui
+Bundle-SymbolicName: de.ovgu.featureide.fm.ui;singleton:=true
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jf
+ ace.text,org.eclipse.ui.editors,org.eclipse.ui.workbench.texteditor,o
+ rg.eclipse.ui.ide,org.eclipse.ui.views,org.eclipse.gef,org.eclipse.co
+ re.expressions,org.eclipse.core.resources,de.ovgu.featureide.fm.core
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: University of Magdeburg
+Export-Package: de.ovgu.featureide.fm.ui,de.ovgu.featureide.fm.ui.edit
+ ors; uses:="org.eclipse.jface.action,  de.ovgu.featureide.fm.ui.edito
+ rs.grammar,  org.eclipse.ui.texteditor,  org.eclipse.core.runtime,  d
+ e.ovgu.featureide.fm.core,  org.eclipse.ui,  org.eclipse.draw2d.geome
+ try,  org.eclipse.jface.viewers,  org.eclipse.ui.part,  org.eclipse.s
+ wt.widgets",de.ovgu.featureide.fm.ui.editors.configuration,de.ovgu.fe
+ atureide.fm.ui.editors.elements,de.ovgu.featureide.fm.ui.editors.feat
+ uremodel,de.ovgu.featureide.fm.ui.editors.featuremodel.actions,de.ovg
+ u.featureide.fm.ui.editors.featuremodel.actions.calculations,de.ovgu.
+ featureide.fm.ui.editors.featuremodel.actions.colors,de.ovgu.featurei
+ de.fm.ui.editors.featuremodel.commands,de.ovgu.featureide.fm.ui.edito
+ rs.featuremodel.commands.renaming,de.ovgu.featureide.fm.ui.editors.fe
+ aturemodel.editparts,de.ovgu.featureide.fm.ui.editors.featuremodel.fi
+ gures,de.ovgu.featureide.fm.ui.editors.featuremodel.figures.anchors,d
+ e.ovgu.featureide.fm.ui.editors.featuremodel.filters,de.ovgu.featurei
+ de.fm.ui.editors.featuremodel.layouts,de.ovgu.featureide.fm.ui.editor
+ s.featuremodel.operations,de.ovgu.featureide.fm.ui.editors.featuremod
+ el.policies,de.ovgu.featureide.fm.ui.editors.keyhandler,de.ovgu.featu
+ reide.fm.ui.editors.mousehandler,de.ovgu.featureide.fm.ui.handlers,de
+ .ovgu.featureide.fm.ui.handlers.base,de.ovgu.featureide.fm.ui.prefere
+ nces,de.ovgu.featureide.fm.ui.properties,de.ovgu.featureide.fm.ui.pro
+ perties.language,de.ovgu.featureide.fm.ui.properties.page,de.ovgu.fea
+ tureide.fm.ui.utils,de.ovgu.featureide.fm.ui.views,de.ovgu.featureide
+ .fm.ui.views.constraintview,de.ovgu.featureide.fm.ui.views.constraint
+ view.actions,de.ovgu.featureide.fm.ui.views.constraintview.listener,d
+ e.ovgu.featureide.fm.ui.views.constraintview.util,de.ovgu.featureide.
+ fm.ui.views.constraintview.view,de.ovgu.featureide.fm.ui.views.featur
+ emodeleditview,de.ovgu.featureide.fm.ui.views.outline,de.ovgu.feature
+ ide.fm.ui.views.outline.computations,de.ovgu.featureide.fm.ui.views.o
+ utline.computations.impl,de.ovgu.featureide.fm.ui.views.outline.custo
+ m,de.ovgu.featureide.fm.ui.views.outline.custom.action,de.ovgu.featur
+ eide.fm.ui.views.outline.custom.filters,de.ovgu.featureide.fm.ui.view
+ s.outline.custom.providers,de.ovgu.featureide.fm.ui.views.outline.sta
+ ndard,de.ovgu.featureide.fm.ui.wizards,org.abego.treelayout,org.abego
+ .treelayout.internal.util,org.abego.treelayout.internal.util.java.lan
+ g,org.abego.treelayout.internal.util.java.lang.string,org.abego.treel
+ ayout.internal.util.java.util,org.abego.treelayout.util
+Bundle-Name: Feature Model UI Plug-In
+Bundle-Version: 3.6.2.202005141025
+Bundle-ClassPath: .,lib/org.abego.treelayout.core-1.0.3.jar
+Bundle-Activator: de.ovgu.featureide.fm.ui.FMUIPlugin
+

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.core.aspectj-test
+Bundle-SymbolicName: de.ovgu.featureide.core.aspectj-test;singleton:=t
+ rue
+Bundle-Name: AspectJ Test Fragment
+Bundle-Version: 3.6.2.202005141025
+Require-Bundle: org.junit
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: University of Magdeburg
+Fragment-Host: de.ovgu.featureide.core.aspectj
+

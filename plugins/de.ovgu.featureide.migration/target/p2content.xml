@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.ovgu.featureide.migration' version='3.6.2.202005141025'>
+    <update id='de.ovgu.featureide.migration' range='[0.0.0,3.6.2.202005141025)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='FeatureIDE UI Plug-In for Migration'/>
+      <property name='maven-groupId' value='de.ovgu.featureide'/>
+      <property name='maven-artifactId' value='de.ovgu.featureide.migration'/>
+      <property name='maven-version' value='3.6.2-SNAPSHOT'/>
+    </properties>
+    <provides size='6'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.ovgu.featureide.migration' version='3.6.2.202005141025'/>
+      <provided namespace='osgi.bundle' name='de.ovgu.featureide.migration' version='3.6.2.202005141025'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.migration.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.ui.migration.plugin' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.ui.migration.wizard' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='8'>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jdt.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.ovgu.featureide.fm.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.ovgu.featureide.fm.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.ovgu.featureide.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.ovgu.featureide.ui' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.ovgu.featureide.migration' version='3.6.2.202005141025'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.ovgu.featureide.migration;singleton:=true&#xA;Bundle-Version: 3.6.2.202005141025&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

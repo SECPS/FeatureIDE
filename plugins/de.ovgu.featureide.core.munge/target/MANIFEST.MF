@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.core.munge
+Bundle-SymbolicName: de.ovgu.featureide.core.munge;singleton:=true
+Export-Package: de.ovgu.featureide.munge,de.ovgu.featureide.munge.docu
+ mentation,de.ovgu.featureide.munge.model,de.ovgu.featureide.munge.sig
+ natures,de.ovgu.featureide.munge.ui.handlers,de.ovgu.featureide.munge
+ .ui.handlers.toggle,org.sonatype.plugins.munge
+Bundle-Name: FeatureIDE Plug-In for Munge
+Bundle-Version: 3.6.2.202005141025
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.resources,de.ovgu.featureide.core,de.ovgu.featureide.fm.core,org.e
+ clipse.jdt.core,de.ovgu.featureide.ui,de.ovgu.featureide.fm.ui,org.ec
+ lipse.core.expressions
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.ovgu.featureide.munge.MungeCorePlugin
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: University of Magdeburg
+

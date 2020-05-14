@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.core.runtime
+Bundle-SymbolicName: de.ovgu.featureide.core.runtime;singleton:=true
+Export-Package: de.ovgu.featureide.core.runtime,de.ovgu.featureide.cor
+ e.runtime.activator
+Bundle-Name: FeatureIDE Plug-In for Runtime Parameters
+Bundle-Version: 3.6.2.202005141025
+Require-Bundle: de.ovgu.featureide.core,de.ovgu.featureide.fm.core,org
+ .eclipse.core.runtime,org.eclipse.debug.ui,org.eclipse.jdt.launching,
+ org.eclipse.jdt.core,org.eclipse.jdt.ui
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: de.ovgu.featureide.core.runtime.activator.RuntimeCor
+ ePlugin
+Bundle-Vendor: University of Magdeburg
+

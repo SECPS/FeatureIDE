@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.core.framework
+Bundle-SymbolicName: de.ovgu.featureide.core.framework;singleton:=true
+Require-Bundle: de.ovgu.featureide.core,de.ovgu.featureide.fm.core,org
+ .eclipse.core.runtime,org.eclipse.core.resources,org.eclipse.jdt.core
+ ,org.eclipse.jdt.launching
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: University of Magdeburg
+Export-Package: de.ovgu.featureide.core.framework,de.ovgu.featureide.c
+ ore.framework.activator
+Bundle-Name: FeatureIDE Plug-In for Black-Box Frameworks
+Bundle-Version: 3.6.2.202005141025
+Bundle-ClassPath: .
+Bundle-Activator: de.ovgu.featureide.core.framework.activator.Framewor
+ kCorePlugin
+

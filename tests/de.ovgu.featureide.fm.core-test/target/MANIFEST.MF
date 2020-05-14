@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.fm.core-test
+Bundle-SymbolicName: de.ovgu.featureide.fm.core-test;singleton:=true
+Bundle-Name: Feature Model Core Test Fragment
+Bundle-Version: 3.6.2.202005141025
+Bundle-ClassPath: .,lib/javabdd.jar,lib/splar.jar,lib/log4j-api-2.2.ja
+ r,lib/log4j-core-2.2.jar
+Require-Bundle: org.junit
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: University of Magdeburg
+Fragment-Host: de.ovgu.featureide.fm.core
+

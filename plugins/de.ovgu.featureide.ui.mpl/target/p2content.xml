@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.ovgu.featureide.ui.mpl' version='3.6.2.202005141025'>
+    <update id='de.ovgu.featureide.ui.mpl' range='[0.0.0,3.6.2.202005141025)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='FeatureIDE UI Plug-In for Multi Product Lines'/>
+      <property name='org.eclipse.equinox.p2.provider' value='University of Magdeburg'/>
+      <property name='maven-groupId' value='de.ovgu.featureide'/>
+      <property name='maven-artifactId' value='de.ovgu.featureide.ui.mpl'/>
+      <property name='maven-version' value='3.6.2-SNAPSHOT'/>
+    </properties>
+    <provides size='9'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.ovgu.featureide.ui.mpl' version='3.6.2.202005141025'/>
+      <provided namespace='osgi.bundle' name='de.ovgu.featureide.ui.mpl' version='3.6.2.202005141025'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.ui.mpl' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.ui.mpl.handlers' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.ui.mpl.handlers.interfaces' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.ui.mpl.handlers.statistics' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.ui.mpl.wizards' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.ui.mpl.wizards.page' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='9'>
+      <required namespace='osgi.bundle' name='de.ovgu.featureide.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.ovgu.featureide.core.mpl' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.ovgu.featureide.fm.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.ovgu.featureide.fm.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.ovgu.featureide.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.draw2d' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.ovgu.featureide.ui.mpl' version='3.6.2.202005141025'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.ovgu.featureide.ui.mpl;singleton:=true&#xA;Bundle-Version: 3.6.2.202005141025&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

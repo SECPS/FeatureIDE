@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.core.munge.android
+Bundle-SymbolicName: de.ovgu.featureide.core.munge.android;singleton:=
+ true
+Export-Package: de.ovgu.featureide.munge_android
+Bundle-Name: FeatureIDE Plug-In for Android with Munge
+Bundle-Version: 3.6.2.202005141025
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,de
+ .ovgu.featureide.core,de.ovgu.featureide.fm.core,de.ovgu.featureide.c
+ ore.munge
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.ovgu.featureide.munge_android.MungeAndroidCorePlu
+ gin
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+

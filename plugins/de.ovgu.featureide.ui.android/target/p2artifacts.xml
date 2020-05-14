@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='de.ovgu.featureide.ui.android' version='3.6.2.202005141025'>
+    <properties size='5'>
+      <property name='artifact.size' value='34864'/>
+      <property name='download.size' value='34864'/>
+      <property name='maven-groupId' value='de.ovgu.featureide'/>
+      <property name='maven-artifactId' value='de.ovgu.featureide.ui.android'/>
+      <property name='maven-version' value='3.6.2-SNAPSHOT'/>
+    </properties>
+  </artifact>
+</artifacts>

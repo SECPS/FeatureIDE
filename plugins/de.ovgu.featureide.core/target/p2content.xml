@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.ovgu.featureide.core' version='3.6.2.202005141025'>
+    <update id='de.ovgu.featureide.core' range='[0.0.0,3.6.2.202005141025)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='FeatureIDE Core Plug-In'/>
+      <property name='org.eclipse.equinox.p2.provider' value='University of Magdeburg'/>
+      <property name='maven-groupId' value='de.ovgu.featureide'/>
+      <property name='maven-artifactId' value='de.ovgu.featureide.core'/>
+      <property name='maven-version' value='3.6.2-SNAPSHOT'/>
+    </properties>
+    <provides size='22'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.ovgu.featureide.core' version='3.6.2.202005141025'/>
+      <provided namespace='osgi.bundle' name='de.ovgu.featureide.core' version='3.6.2.202005141025'/>
+      <provided namespace='java.package' name='com.sun.tools.classfile' version='0.0.0'/>
+      <provided namespace='java.package' name='com.sun.tools.javac.jvm' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.builder' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.builder.preprocessor' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.featuremodeling' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.fstmodel' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.fstmodel.preprocessor' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.job' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.listeners' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.propertypage' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.signature' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.signature.base' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.signature.comparator' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.signature.documentation' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.signature.documentation.base' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.signature.filter' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.signature.java' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.core.wizardextension' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='7'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.debug.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jdt.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.ovgu.featureide.fm.core' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.jdt.internal.core' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.ui.wizards.newresource' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.ovgu.featureide.core' version='3.6.2.202005141025'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.ovgu.featureide.core;singleton:=true&#xA;Bundle-Version: 3.6.2.202005141025&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

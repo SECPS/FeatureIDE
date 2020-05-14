@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.core.conversion.ahead-featur
+ ehouse
+Bundle-SymbolicName: de.ovgu.featureide.core.conversion.ahead-featureh
+ ouse;singleton:=true
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.resources,org.eclipse.jdt.core,de.ovgu.featureide.core,de.ovgu.fea
+ tureide.ui,de.ovgu.featureide.fm.core,de.ovgu.featureide.fm.ui,de.ovg
+ u.featureide.core.ahead,de.ovgu.featureide.core.featurehouse
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: University of Magdeburg
+Export-Package: de.ovgu.featureide.core.conversion.ahead_featurehouse,
+ de.ovgu.featureide.core.conversion.ahead_featurehouse.actions;uses:="
+ org.eclipse.jdt.core,de.ovgu.featureide.core,org.eclipse.core.resourc
+ es",de.ovgu.featureide.core.conversion.ahead_featurehouse.handlers
+Bundle-Name: FeatureIDE Converter Plug-In between AHEAD and FeatureHou
+ se
+Bundle-Version: 3.6.2.202005141025
+Bundle-ClassPath: .
+Bundle-Activator: de.ovgu.featureide.core.conversion.ahead_featurehous
+ e.ConversionPlugin
+

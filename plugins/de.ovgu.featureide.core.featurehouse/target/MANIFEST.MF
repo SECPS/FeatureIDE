@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.core.featurehouse
+Bundle-SymbolicName: de.ovgu.featureide.core.featurehouse;singleton:=t
+ rue
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.resources,de.ovgu.featureide.core,de.ovgu.featureide.ui,de.ovgu.fe
+ atureide.fm.ui,de.ovgu.featureide.fm.core,org.eclipse.jdt.core
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: University of Magdeburg
+Import-Package: org.eclipse.core.expressions,org.eclipse.jdt.internal.
+ core
+Export-Package: cide.features,de.ovgu.featureide.featurehouse,de.ovgu.
+ featureide.featurehouse.errorpropagation,de.ovgu.featureide.featureho
+ use.meta,de.ovgu.featureide.featurehouse.meta.featuremodel,de.ovgu.fe
+ atureide.featurehouse.model,de.ovgu.featureide.featurehouse.signature
+ .documentation,de.ovgu.featureide.featurehouse.signature.fuji,de.ovgu
+ .featureide.featurehouse.ui.handlers,de.ovgu.featureide.featurehouse.
+ ui.handlers.toggle,fuji
+Bundle-Name: FeatureIDE Plug-In for FeatureHouse
+Bundle-Version: 3.6.2.202005141025
+Bundle-ClassPath: lib/FeatureHouse.jar,lib/fuji.jar,.
+Bundle-Activator: de.ovgu.featureide.featurehouse.FeatureHouseCorePlug
+ in
+

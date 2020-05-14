@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.ovgu.featureide.fm.core' version='3.6.2.202005141025'>
+    <update id='de.ovgu.featureide.fm.core' range='[0.0.0,3.6.2.202005141025)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Feature Model Core Plug-In'/>
+      <property name='org.eclipse.equinox.p2.provider' value='University of Magdeburg'/>
+      <property name='maven-groupId' value='de.ovgu.featureide'/>
+      <property name='maven-artifactId' value='de.ovgu.featureide.fm.core'/>
+      <property name='maven-version' value='3.6.2-SNAPSHOT'/>
+    </properties>
+    <provides size='157'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.ovgu.featureide.fm.core' version='3.6.2.202005141025'/>
+      <provided namespace='osgi.bundle' name='de.ovgu.featureide.fm.core' version='3.6.2.202005141025'/>
+      <provided namespace='java.package' name='Jakarta.DRAttributes' version='0.0.0'/>
+      <provided namespace='java.package' name='Jakarta.SwingUtils' version='0.0.0'/>
+      <provided namespace='java.package' name='Jakarta.collection' version='0.0.0'/>
+      <provided namespace='java.package' name='Jakarta.io' version='0.0.0'/>
+      <provided namespace='java.package' name='Jakarta.loader' version='0.0.0'/>
+      <provided namespace='java.package' name='Jakarta.string' version='0.0.0'/>
+      <provided namespace='java.package' name='Jakarta.symtab' version='0.0.0'/>
+      <provided namespace='java.package' name='Jakarta.util' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.analysis' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.analysis.cnf' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.analysis.cnf.analysis' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.analysis.cnf.formula' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.analysis.cnf.generator.configuration' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.analysis.cnf.generator.configuration.twise' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.analysis.cnf.generator.configuration.twise.iterator' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.analysis.cnf.generator.configuration.util' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.analysis.cnf.manipulator' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.analysis.cnf.manipulator.remove' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.analysis.cnf.manipulator.remove.heuristic' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.analysis.cnf.solver' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.analysis.mig' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.base' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.base.event' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.base.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.base.util' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.base.util.tree' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.color' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.configuration' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.configuration.io' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.constraint' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.constraint.analysis' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.conversion' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.editing' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.editing.evaluation' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.config' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.config.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.config.impl.composite' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.config.impl.ltms' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.config.impl.mus' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.fm' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.fm.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.fm.impl.composite' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.fm.impl.ltms' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.fm.impl.mus' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.impl.composite' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.preprocessors' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.preprocessors.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.preprocessors.impl.composite' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.preprocessors.impl.ltms' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.explanations.preprocessors.impl.mus' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.filter' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.functional' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.init' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.io' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.io.cnf' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.io.dimacs' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.io.fama' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.io.guidsl' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.io.manager' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.io.propositionalModel' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.io.splconquerer' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.io.sxfm' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.io.velvet' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.io.xml' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.jar' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.job' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.job.monitor' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.job.util' version='0.0.0'/>
+      <provided namespace='java.package' name='de.ovgu.featureide.fm.core.localization' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.umd.cs.findbugs.annotations' version='0.0.0'/>
+      <provided namespace='java.package' name='guidsl' version='0.0.0'/>
+      <provided namespace='java.package' name='javax.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='javax.annotation.concurrent' version='0.0.0'/>
+      <provided namespace='java.package' name='javax.annotation.meta' version='0.0.0'/>
+      <provided namespace='java.package' name='net.jcip.annotations' version='0.0.0'/>
+      <provided namespace='java.package' name='no.sintef.ict.splcatool' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.analysis' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.codegen' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.grammar.v3' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.gunit' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.gunit.swingui' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.gunit.swingui.model' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.gunit.swingui.parsers' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.gunit.swingui.runner' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.misc' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.runtime' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.runtime.debug' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.runtime.misc' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.runtime.tree' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.tool' version='0.0.0'/>
+      <provided namespace='java.package' name='org.prop4j' version='0.0.0'/>
+      <provided namespace='java.package' name='org.prop4j.explain.solvers' version='0.0.0'/>
+      <provided namespace='java.package' name='org.prop4j.explain.solvers.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.prop4j.explain.solvers.impl.ltms' version='0.0.0'/>
+      <provided namespace='java.package' name='org.prop4j.explain.solvers.impl.sat4j' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.core' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.minisat' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.minisat.constraints' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.minisat.constraints.card' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.minisat.constraints.cnf' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.minisat.core' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.minisat.learning' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.minisat.orders' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.minisat.restarts' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.opt' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.pb' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.pb.constraints' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.pb.constraints.pb' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.pb.core' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.pb.orders' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.pb.reader' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.pb.tools' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.reader' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.specs' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.tools' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.tools.encoding' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sat4j.tools.xplain' version='0.0.0'/>
+      <provided namespace='java.package' name='org.stringtemplate.v4' version='0.0.0'/>
+      <provided namespace='java.package' name='org.stringtemplate.v4.compiler' version='0.0.0'/>
+      <provided namespace='java.package' name='org.stringtemplate.v4.debug' version='0.0.0'/>
+      <provided namespace='java.package' name='org.stringtemplate.v4.gui' version='0.0.0'/>
+      <provided namespace='java.package' name='org.stringtemplate.v4.misc' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.apps' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.apps.experiments' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.apps.generator' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.core.constraints' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.core.constraints.parsing' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.core.fm' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.core.fm.clustering' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.core.fm.configuration' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.core.fm.randomization' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.core.fm.reasoning' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.core.heuristics' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.core.util' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.core.util.alloy' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.core.util.hypergraphs' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.plugins.configuration.bdd.javabdd' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.plugins.configuration.bdd.javabdd.catalog' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.plugins.configuration.sat.sat4j' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.plugins.configuration.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.plugins.configuration.tests.bdd.javabdd' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.plugins.configuration.tests.sat.sat4j' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.plugins.reasoners.bdd.javabdd' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.plugins.reasoners.sat.sat4j' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.plugins.reasoners.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.plugins.reasoners.tests.bdd.javabdd' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.plugins.reasoners.tests.sat.sat4j' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.plugins.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='splar.samples' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='3'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.swt' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.ovgu.featureide.fm.core' version='3.6.2.202005141025'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.ovgu.featureide.fm.core;singleton:=true&#xA;Bundle-Version: 3.6.2.202005141025&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

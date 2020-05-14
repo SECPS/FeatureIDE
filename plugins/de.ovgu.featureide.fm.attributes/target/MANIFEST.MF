@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.fm.attributes
+Bundle-SymbolicName: de.ovgu.featureide.fm.attributes;singleton:=true
+Export-Package: de.ovgu.featureide.fm.attributes,de.ovgu.featureide.fm
+ .attributes.base,de.ovgu.featureide.fm.attributes.base.exceptions,de.
+ ovgu.featureide.fm.attributes.base.impl,de.ovgu.featureide.fm.attribu
+ tes.composer,de.ovgu.featureide.fm.attributes.computations.impl,de.ov
+ gu.featureide.fm.attributes.config,de.ovgu.featureide.fm.attributes.f
+ ormat,de.ovgu.featureide.fm.attributes.formula,de.ovgu.featureide.fm.
+ attributes.formula.aggregates,de.ovgu.featureide.fm.attributes.formul
+ a.formulas,de.ovgu.featureide.fm.attributes.formula.provider,de.ovgu.
+ featureide.fm.attributes.outlineentry,de.ovgu.featureide.fm.attribute
+ s.view,de.ovgu.featureide.fm.attributes.view.actions,de.ovgu.featurei
+ de.fm.attributes.view.editingsupports,de.ovgu.featureide.fm.attribute
+ s.view.labelprovider
+Bundle-Name: Extended Feature Model Plug-In
+Bundle-Version: 3.6.2.202005141025
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.resources,org.eclipse.ui.ide,de.ovgu.featureide.fm.core,de.ovgu.fe
+ atureide.fm.ui,de.ovgu.featureide.core
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.ovgu.featureide.fm.attributes.FMAttributesPlugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: University of Magdeburg
+

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: de.ovgu.featureide.migration
+Bundle-SymbolicName: de.ovgu.featureide.migration;singleton:=true
+Export-Package: de.ovgu.featureide.migration.impl,de.ovgu.featureide.u
+ i.migration.plugin,de.ovgu.featureide.ui.migration.wizard
+Bundle-Name: FeatureIDE UI Plug-In for Migration
+Bundle-Version: 3.6.2.202005141025
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.resources,org.eclipse.jdt.core,de.ovgu.featureide.fm.ui,de.ovgu.fe
+ atureide.fm.core,de.ovgu.featureide.core,de.ovgu.featureide.ui
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.ovgu.featureide.ui.migration.plugin.Activator
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
