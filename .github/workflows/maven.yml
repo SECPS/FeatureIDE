@@ -9,7 +9,27 @@ on:
     branches: [ master,develop ]
 
 jobs:
-  build:
+  fail_at_end_build_and_test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK 1.8
+      uses: actions/setup-java@v1
+      with:
+        java-version: 1.8
+    - name: Getting cached dependencies
+      uses: actions/cache@v1
+      with:
+        path: ~/.m2/repository
+        key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+        restore-keys: |
+          ${{ runner.os }}-maven-
+    - name: Build with Maven
+      uses: GabrielBB/xvfb-action@v1.0
+      with:
+       run: mvn -Pnui -Pdeploy clean package -fae 
+  fast_fail_build_test_and_deploy:
 
     runs-on: ubuntu-latest
 
@@ -29,13 +49,24 @@ jobs:
     - name: Build with Maven
       uses: GabrielBB/xvfb-action@v1.0
       with:
-       run: mvn clean package  
+       run: mvn -Pnui clean package  
     - name: Add changes
-      run: git add . -f
+      run: |
+        git config --global user.email "d.salvo.romano@gmail.com"
+        git config --global user.name "Dario Romano"
+        git add . -f -v
+        git commit -m "Pushing build"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         force: true
-
-
+        
+    - name: Generate artifacts
+      run: |
+        mkdir -p path/to/artifact
+        find ./plugins/*/target -name '*.jar' -exec mv -t path/to/artifact {} +
+    - uses: actions/upload-artifact@v1
+      with:
+       name: FeatureIDE_JARS
+       path: path/to/artifact
